@@ -1,9 +1,8 @@
-import { HtmlHTMLAttributes } from "react";
+import { HTMLAttributes } from "react";
 
-export interface CardProps extends HTMLAttributes<HTMLDivElement>{
+export interface CardProps extends HTMLAttributes<HTMLDivElement> {
     variant?: "light" | "dark";
-    Image: string;
+    image: string;
     title: string;
-    label: string;
-
-:
+    label: string;
+}
